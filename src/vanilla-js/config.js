@@ -9,6 +9,31 @@ var config = {
     byline: 'By Jenna Langer',
     footer: 'Source: source citations, etc.',
     chapters: [
+      {
+          id: 'overview',
+          title: 'South Lake Tahoe -> Zion Canyon National Park',
+          image: '',
+          description: 'We started by heading Northwest, mountain biking along the Lost Sierras. From there we made our way through Nevada and Southern Utah, biking and hiking our way through the beautiful desert canyons.',
+          location: {
+            center: [-118.24155, 37.70164],
+            zoom: 6.19,
+            pitch: 0.00,
+            bearing: 0.00
+          },
+          onChapterEnter: [
+              // {
+              //     layer: 'layer-name',
+              //     opacity: 1
+              // }
+          ],
+          onChapterExit: [
+              // {
+              //     layer: 'layer-name',
+              //     opacity: 0
+              // }
+          ]
+      },
+
         {
             id: 'campsite1',
             title: 'Night 1: Packsaddle Campground',
@@ -16,7 +41,7 @@ var config = {
             description: 'Friday afternoon we left South Lake Tahoe and headed for Downieville, planning to camp somewhere near the top of the trailhead. As we arrived in the dark the safest bet was a campground a couple miles below the top.',
             location: {
                 center: [-120.64954400, 39.62439700],
-                zoom: 13.5,
+                zoom: 10,
                 pitch: 60,
                 bearing: 0
             },
